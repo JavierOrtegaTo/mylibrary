@@ -50,21 +50,12 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-
                 groupId = "com.github.JavierOrtegaTo"
-                artifactId = "JavierLibreria"
+                artifactId = "mylibrary"
                 version = "1.0.0.3"
             }
         }
-
-        repositories {
-            maven {
-                name = "JitPack"
-                url = uri("https://jitpack.io")
-            }
-        }
     }
-
 }
 
 
