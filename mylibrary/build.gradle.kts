@@ -53,7 +53,7 @@ afterEvaluate {
 
                 groupId = "com.github.JavierOrtegaTo"
                 artifactId = "JavierLibreria"
-                version = "1.0.0.10"
+                version = "1.0.0.3"
             }
         }
 

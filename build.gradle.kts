@@ -5,3 +5,9 @@ plugins {
     id("com.android.library") version "8.4.0" apply false
 }
 
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
